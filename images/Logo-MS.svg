@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.073" height="17.5" viewBox="0 0 37.073 17.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="37.073" height="17.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_35" data-name="Group 35" transform="translate(0 0)">
+    <path id="Path_10" data-name="Path 10" d="M0,31.7H6.307L3.132,25.394Z" transform="translate(0 -14.271)"/>
+    <path id="Path_11" data-name="Path 11" d="M12.08,6.745,17.329,17.58h6.18L15.128.268Z" transform="translate(-6.789 -0.15)" fill="#eecab3"/>
+    <g id="Group_32" data-name="Group 32" transform="translate(0 0)">
+      <g id="Group_31" data-name="Group 31" clip-path="url(#clip-path)">
+        <path id="Path_12" data-name="Path 12" d="M17.328,17.581h6.18L15.127.269,12.08,6.745Z" transform="translate(-6.788 -0.151)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="0.231"/>
+      </g>
+    </g>
+    <path id="Path_13" data-name="Path 13" d="M35.852,6.787l5.291,10.794h6.18L38.984.268Z" transform="translate(-20.148 -0.15)" fill="#fc7b2c"/>
+    <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
+      <g id="Group_33" data-name="Group 33" clip-path="url(#clip-path)">
+        <path id="Path_14" data-name="Path 14" d="M56.609,6.2a4.962,4.962,0,0,1,2.963-5.037A10.5,10.5,0,0,1,62.7.655a3.616,3.616,0,0,0-1.185,1.65A3.494,3.494,0,0,0,63.255,6.2c1.99,1.1,5.122,3.6,5.46,5.291s0,4.571-2.413,5.545a7.356,7.356,0,0,1-3.588.762l.329-.381a3.354,3.354,0,0,0,1.016-2.54,5,5,0,0,0-1.735-2.54S58.515,9.9,57.932,8.983A4.88,4.88,0,0,1,56.609,6.2" transform="translate(-31.804 -0.368)" fill="#fff"/>
+        <path id="Path_15" data-name="Path 15" d="M56.609,6.2a4.962,4.962,0,0,1,2.963-5.037A10.5,10.5,0,0,1,62.7.655a3.616,3.616,0,0,0-1.185,1.65A3.494,3.494,0,0,0,63.255,6.2c1.99,1.1,5.122,3.6,5.46,5.291s0,4.571-2.413,5.545a7.356,7.356,0,0,1-3.588.762l.329-.381a3.354,3.354,0,0,0,1.016-2.54,5,5,0,0,0-1.735-2.54S58.515,9.9,57.932,8.983A4.88,4.88,0,0,1,56.609,6.2Z" transform="translate(-31.804 -0.368)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="0.231"/>
+      </g>
+    </g>
+  </g>
+</svg>

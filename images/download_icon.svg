@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="20" viewBox="0 0 18 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc7b2c"/>
+      <stop offset="1" stop-color="#545454"/>
+    </linearGradient>
+  </defs>
+  <g id="_216183_download_icon" data-name="216183_download_icon" transform="translate(-3 -2)">
+    <path id="Path_1464" data-name="Path 1464" d="M16.707,7.4a1.025,1.025,0,0,0-1.414,0L13,9.7V3a1,1,0,0,0-2,0V9.7L8.707,7.4A1,1,0,0,0,7.293,8.818L12,13.5l4.709-4.684A1,1,0,0,0,16.707,7.4Z" fill="url(#linear-gradient)"/>
+    <path id="Path_1465" data-name="Path 1465" d="M20.987,16a.979.979,0,0,0-.039-.316l-2-6A1,1,0,0,0,18,9h-.219a1.984,1.984,0,0,1-.367.525L15.932,11H17.28l1.667,5H5.054l1.667-5H8.069L6.586,9.525A1.961,1.961,0,0,1,6.219,9H6a1,1,0,0,0-.948.684l-2,6A.979.979,0,0,0,3.013,16C3,16,3,21,3,21a1,1,0,0,0,1,1H20a1,1,0,0,0,1-1S21,16,20.987,16Z" fill="#fc7b2c"/>
+  </g>
+</svg>
