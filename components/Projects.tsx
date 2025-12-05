@@ -19,8 +19,9 @@ export default function Projects() {
       img: portalx,
       title: "PORTAL X",
       tech: "React Js, Tailwind",
-      source: "disabled",
+      source: "/",
       demo: "https://portalx.space",
+      disabled: "disabled",
     },
     {
       img: explore,
@@ -62,8 +63,9 @@ export default function Projects() {
       img: youtube,
       title: "Coming Soon",
       tech: "Development stage",
-      source: "disabled",
+      source: "/",
       demo: "/",
+      disabled: "disabled",
     },
   ];
 
@@ -108,7 +110,7 @@ export default function Projects() {
                     project.source === "disabled" && e.preventDefault()
                   }
                   className={`bg-accent text-white rounded text-sm hover:shadow-lg transition flex items-center justify-center gap-1 w-[100px] h-9 ${
-                    project.source === "disabled"
+                    project.disabled === "disabled"
                       ? "opacity-50 cursor-not-allowed"
                       : ""
                   }`}
