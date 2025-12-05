@@ -13,7 +13,7 @@ export default function Hero() {
   const rounded = useTransform(count, Math.round);
 
   useEffect(() => {
-    const animation = animate(count, 10, { duration: 2 });
+    const animation = animate(count, 7, { duration: 2 });
     return animation.stop;
   }, []);
 
