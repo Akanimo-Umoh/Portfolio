@@ -9,11 +9,19 @@ import reactPortfolio from "../images/Portfolio-Project.jpg";
 import reactProject from "../images/react-meta-final-project-prototype.vercel.app.png";
 import explore from "../images/explore-space.jpg";
 import youtube from "../images/youtube-clone.png";
+import portalx from "../images/portalx.png";
 import Link from "next/link";
 import { motion } from "motion/react";
 
 export default function Projects() {
   const projects = [
+    {
+      img: portalx,
+      title: "PORTAL X",
+      tech: "React Js, Tailwind",
+      source: "disabled",
+      demo: "https://portalx.space",
+    },
     {
       img: explore,
       title: "Explore Space",
@@ -54,7 +62,7 @@ export default function Projects() {
       img: youtube,
       title: "Coming Soon",
       tech: "Development stage",
-      source: "/",
+      source: "disabled",
       demo: "/",
     },
   ];
@@ -97,10 +105,10 @@ export default function Projects() {
                   href={project.source}
                   target="_blank"
                   onClick={(e) =>
-                    project.title === "Coming Soon" && e.preventDefault()
+                    project.source === "disabled" && e.preventDefault()
                   }
                   className={`bg-accent text-white rounded text-sm hover:shadow-lg transition flex items-center justify-center gap-1 w-[100px] h-9 ${
-                    project.title === "Coming Soon"
+                    project.source === "disabled"
                       ? "opacity-50 cursor-not-allowed"
                       : ""
                   }`}
