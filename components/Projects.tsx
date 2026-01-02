@@ -10,14 +10,14 @@ import reactProject from "../images/react-meta-final-project-prototype.vercel.ap
 import explore from "../images/explore-space.jpg";
 import youtube from "../images/youtube-clone.png";
 import portalx from "../images/portalx.png";
-import weather from "../images/desktop-design-metric.jpg";
+import weather from "../images/weather-preview.jpg";
 import Link from "next/link";
 import { motion } from "motion/react";
 
 export default function Projects() {
   const projects = [
     {
-      img: weather, 
+      img: weather,
       title: "Weather App",
       tech: "React, Tailwind, TypeScript",
       source: "https://github.com/Akanimo-Umoh/weather-app",
