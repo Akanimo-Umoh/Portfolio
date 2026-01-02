@@ -17,7 +17,7 @@ import { motion } from "motion/react";
 export default function Projects() {
   const projects = [
     {
-      img: weather,
+      img: weather, 
       title: "Weather App",
       tech: "React, Tailwind, TypeScript",
       source: "https://github.com/Akanimo-Umoh/weather-app",
