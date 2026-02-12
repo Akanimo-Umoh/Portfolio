@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import ak from "../images/ak.jpeg";
 import Image from "next/image";
 import Link from "next/link";
@@ -63,9 +63,10 @@ export default function Hero() {
         </div>
 
         <p className="text-sm md:text-lg leading-relaxed px-6 max-w-[450px] md:px-0 md:max-w-full">
-          I'm a dedicated frontend developer and I am passionate about my work.
-          I'm a fast learner and I strive to improve my skills regularly to stay
-          updated with the latest technologies and trends in web development.
+          I&apos;m a dedicated frontend developer and I am passionate about my
+          work. I&apos;m a fast learner and I strive to improve my skills
+          regularly to stay updated with the latest technologies and trends in
+          web development.
         </p>
 
         <motion.div
@@ -79,7 +80,7 @@ export default function Hero() {
           }}
         >
           <Link
-            href="/UMOH_AKANIMO_CV.pdf"
+            href="/UMOH_AKANIMO_FRONTEND_CV.pdf"
             download
             className="hidden md:flex items-center justify-center bg-accent text-white rounded font-bold hover:bg-white hover:text-accent transition h-10 w-20 text-sm hover:border hover:border-accent"
           >
