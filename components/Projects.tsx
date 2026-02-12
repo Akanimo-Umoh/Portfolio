@@ -46,13 +46,13 @@ export default function Projects() {
         "https://github.com/Akanimo-Umoh/React-Meta-Final-Project-Prototype.git",
       demo: "https://react-meta-final-project-prototype.vercel.app/",
     },
-    {
-      img: reactPortfolio,
-      title: "Portfolio Project",
-      tech: "React Js, CSS, Non-responsive",
-      source: "https://github.com/Akanimo-Umoh/React-Meta-Final-Project.git",
-      demo: "https://react-meta-final-project.vercel.app/",
-    },
+    // {
+    //   img: reactPortfolio,
+    //   title: "Portfolio Project",
+    //   tech: "React Js, CSS, Non-responsive",
+    //   source: "https://github.com/Akanimo-Umoh/React-Meta-Final-Project.git",
+    //   demo: "https://react-meta-final-project.vercel.app/",
+    // },
     {
       img: news,
       title: "News Homepage",
@@ -60,13 +60,13 @@ export default function Projects() {
       source: "https://github.com/Akanimo-Umoh/News-Homepage.git",
       demo: "https://news-homepage-ashy.vercel.app/",
     },
-    {
-      img: ecommerce,
-      title: "Ecommerce Product Page",
-      tech: "HTML5, CSS & Js",
-      source: "https://github.com/Akanimo-Umoh/Ecommerce-Page.git",
-      demo: "https://ecommerce-page-hazel.vercel.app/",
-    },
+    // {
+    //   img: ecommerce,
+    //   title: "Ecommerce Product Page",
+    //   tech: "HTML5, CSS & Js",
+    //   source: "https://github.com/Akanimo-Umoh/Ecommerce-Page.git",
+    //   demo: "https://ecommerce-page-hazel.vercel.app/",
+    // },
     {
       img: youtube,
       title: "Coming Soon",
@@ -92,7 +92,7 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.5, delay: index * 0.05 }}
-            className="bg-primary rounded-lg overflow-hidden p-4 w-full max-w-[400px] transition-all duration-300 cursor-pointer project-box"
+            className="bg-primary rounded-lg overflow-hidden p-4 w-full max-w-[400px] transition-all duration-300 project-box"
           >
             <div className="w-full h-[200px] overflow-hidden rounded-lg">
               <Image
@@ -113,7 +113,7 @@ export default function Projects() {
               <div className="flex justify-between">
                 <Link
                   href={project.source}
-                  target="_blank"
+                  target={project.disabled === "disabled" ? "" : "_blank"}
                   onClick={(e) =>
                     project.source === "disabled" && e.preventDefault()
                   }
@@ -129,7 +129,7 @@ export default function Projects() {
 
                 <Link
                   href={project.demo}
-                  target="_blank"
+                  target={project.title === "Coming Soon" ? "" : "_blank"}
                   onClick={(e) =>
                     project.title === "Coming Soon" && e.preventDefault()
                   }
