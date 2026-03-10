@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import html from "../lib/html.svg";
 import css from "../lib/css.svg";
 import scss from "../lib/scss.svg";
@@ -10,6 +9,8 @@ import responsive from "../lib/responsive.svg";
 import python from "../lib/python.svg";
 import framer from "../lib/framer.svg";
 import next from "../lib/next.svg";
+import axios from "../lib/axios.svg";
+import redux from "../lib/redux.svg";
 import mongodb from "../lib/mongodb.svg";
 import git from "../lib/git.svg";
 import tailwind from "../lib/tailwind.svg";
@@ -28,6 +29,8 @@ export default function Skills() {
     { img: react, name: "React.js" },
     { img: next, name: "Next.js" },
     { img: python, name: "Python" },
+    { img: axios, name: "Axios" },
+    { img: redux, name: "Redux" },
     { img: responsive, name: "Responsive Design" },
     { img: framer, name: "Framer Motion" },
     { img: mongodb, name: "MongoDB" },

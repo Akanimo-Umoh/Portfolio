@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="none">
+  <!-- Left arrow: top-right to bottom-left diagonal with arrowhead pointing down-left -->
+  <path d="M27 5L13 15.5H19.5V45L27 39.5V5Z" fill="#5A29E4"/>
+  <!-- Right arrow: bottom-left to top-right diagonal with arrowhead pointing up-right -->
+  <path d="M23 45L37 34.5H30.5V5L23 10.5V45Z" fill="#5A29E4"/>
+</svg>
