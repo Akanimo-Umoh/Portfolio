@@ -67,14 +67,14 @@ export default function Projects() {
     //   source: "https://github.com/Akanimo-Umoh/Ecommerce-Page.git",
     //   demo: "https://ecommerce-page-hazel.vercel.app/",
     // },
-    {
-      img: youtube,
-      title: "Coming Soon",
-      tech: "Development stage",
-      source: "/",
-      demo: "/",
-      disabled: "disabled",
-    },
+    // {
+    //   img: youtube,
+    //   title: "Coming Soon",
+    //   tech: "Development stage",
+    //   source: "/",
+    //   demo: "/",
+    //   disabled: "disabled",
+    // },
   ];
 
   return (
