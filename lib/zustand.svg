@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45" height="45">
+  <!-- Palm -->
+  <ellipse cx="22.5" cy="27" rx="12" ry="11" fill="#f97316"/>
+  <!-- Top knuckle bumps -->
+  <ellipse cx="7" cy="14" rx="5.5" ry="5.5" fill="#f97316"/>
+  <ellipse cx="38" cy="14" rx="5.5" ry="5.5" fill="#f97316"/>
+  <!-- Side pads -->
+  <ellipse cx="2" cy="27" rx="4.5" ry="4.5" fill="#f97316"/>
+  <ellipse cx="43" cy="27" rx="4.5" ry="4.5" fill="#f97316"/>
+  <!-- Toe beans -->
+  <ellipse cx="13.5" cy="31" rx="3.2" ry="3.2" fill="#fff" opacity="0.9"/>
+  <ellipse cx="22.5" cy="33" rx="3.2" ry="3.2" fill="#fff" opacity="0.9"/>
+  <ellipse cx="31.5" cy="31" rx="3.2" ry="3.2" fill="#fff" opacity="0.9"/>
+</svg>
