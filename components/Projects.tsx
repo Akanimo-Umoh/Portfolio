@@ -17,6 +17,13 @@ import invoiceApp from "../images/invoice-management-app.png";
 export default function Projects() {
   const projects = [
     {
+      img: invoiceApp,
+      title: "Invoice Management App",
+      tech: "React Js, TypeScript, Tailwind Css",
+      source: "https://github.com/Akanimo-Umoh/stage2",
+      demo: "https://invoice-management-app-neon.vercel.app/",
+    },
+    {
       img: weather,
       title: "Weather App",
       tech: "React, Tailwind, TypeScript",
@@ -59,13 +66,6 @@ export default function Projects() {
       tech: "HTML5, CSS & Js",
       source: "https://github.com/Akanimo-Umoh/News-Homepage.git",
       demo: "https://news-homepage-ashy.vercel.app/",
-    },
-    {
-      img: invoiceApp,
-      title: "Invoice Management App",
-      tech: "React Js, TypeScript, Tailwind Css",
-      source: "https://github.com/Akanimo-Umoh/stage2",
-      demo: "https://invoice-management-app-neon.vercel.app/",
     },
     // {
     //   img: ecommerce,
