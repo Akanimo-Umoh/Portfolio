@@ -1,18 +1,18 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
 import source from "../images/link_external_icon.svg";
-import ecommerce from "../images/ecommerce.jpg";
+// import ecommerce from "../images/ecommerce.jpg";
 import news from "../images/news-homepage.jpg";
-import reactPortfolio from "../images/Portfolio-Project.jpg";
+// import reactPortfolio from "../images/Portfolio-Project.jpg";
 import reactProject from "../images/react-meta-final-project-prototype.vercel.app.png";
 import explore from "../images/explore-space.jpg";
-import youtube from "../images/youtube-clone.png";
+// import youtube from "../images/youtube-clone.png";
 import portalx from "../images/portalx.png";
 import weather from "../images/weather-preview.jpg";
 import Link from "next/link";
 import { motion } from "motion/react";
+import invoiceApp from "../images/invoice-management-app.png";
 
 export default function Projects() {
   const projects = [
@@ -59,6 +59,13 @@ export default function Projects() {
       tech: "HTML5, CSS & Js",
       source: "https://github.com/Akanimo-Umoh/News-Homepage.git",
       demo: "https://news-homepage-ashy.vercel.app/",
+    },
+    {
+      img: invoiceApp,
+      title: "Invoice Management App",
+      tech: "React Js, TypeScript, Tailwind Css",
+      source: "https://github.com/Akanimo-Umoh/stage2",
+      demo: "https://invoice-management-app-neon.vercel.app/",
     },
     // {
     //   img: ecommerce,
