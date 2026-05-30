@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing my work and experience as a frontend developer.
 
-🔗 **Live site:** [akanimo-umoh.vercel.app](https://akanimo-umoh.app)
+🔗 **Live site:** [akanimo-umoh.vercel.app](https://akanimo-umoh.vercel.app)
 
 ## Tech Stack
 
