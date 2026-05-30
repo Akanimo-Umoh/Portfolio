@@ -30,7 +30,7 @@ export function Hero() {
                 Based in
               </span>
               <span className="mt-1 block font-mono text-[11px] tracking-widest text-stone-400 uppercase dark:text-white/45">
-                Abuja, Nigeria
+                Lokoja, Nigeria
               </span>
             </div>
           </div>
