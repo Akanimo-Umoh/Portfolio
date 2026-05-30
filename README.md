@@ -1,21 +1,27 @@
-# Next.js template
+# Akanimo Umoh — Portfolio
 
-This is a Next.js template with shadcn/ui.
+Personal portfolio website showcasing my work and experience as a frontend developer.
 
-## Adding components
+🔗 **Live site:** [akanimo-umoh.vercel.app](https://akanimo-umoh.app)
 
-To add components to your app, run the following command:
+## Tech Stack
 
-```bash
-npx shadcn@latest add button
-```
+- **Framework** — Next.js 15 (App Router)
+- **Language** — TypeScript
+- **Styling** — Tailwind CSS v4
+- **Animations** — Motion
+- **Email** — EmailJS
+- **Deployment** — Vercel
 
-This will place the ui components in the `components` directory.
+## Features
 
-## Using components
+- Dark / light mode with circular reveal transition
+- Character-by-character hero animation
+- Project cards with hover overlay
+- Working contact form
+- Scroll-triggered fade animations
+- Custom gold scrollbar
 
-To use the components in your app, import them as follows:
+## License
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
+MIT
