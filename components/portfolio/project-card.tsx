@@ -75,7 +75,7 @@ export function ProjectCard({
         role={!canHover ? "button" : undefined}
         tabIndex={!canHover ? 0 : undefined}
         aria-expanded={!canHover ? active : undefined}
-        className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl"
+        className="relative aspect-16/10 w-full overflow-hidden rounded-2xl"
         onClick={() => {
           if (!canHover) {
             setActive(true)
