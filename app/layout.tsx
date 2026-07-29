@@ -25,7 +25,7 @@ const fontSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Akanimo Umoh | Frontend Developer",
   description:
-    "Frontend developer building fast, accessible, and obsessively refined interfaces. Based in Lokoja, Nigeria.",
+    "Frontend developer building fast, accessible, and obsessively refined interfaces. Based in Lagos, Nigeria.",
   openGraph: {
     title: "Akanimo Umoh | Frontend Developer",
     description:
