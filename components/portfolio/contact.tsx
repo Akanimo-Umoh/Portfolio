@@ -40,7 +40,7 @@ export function Contact() {
             <div className="flex flex-col gap-0">
               {[
                 { label: "Email", value: "ak.dev003@gmail.com" },
-                { label: "Location", value: "Lagos, Nigeria" },
+                { label: "Location", value: "Lokoja, Nigeria" },
                 { label: "Availability", value: "Immediate" },
                 { label: "Response time", value: "Within 24hrs" },
               ].map((item, i, arr) => (
