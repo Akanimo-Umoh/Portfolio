@@ -11,6 +11,17 @@ export const projects = [
     live: null,
   },
   {
+    image: "/openprofile.png",
+    title: "OpenProfile",
+    role: "Frontend Developer Intern · HNG14",
+    description:
+      "Professional profile/portfolio builder platform built with a team of frontend developers. Contributed to the landing page and FAQ page, built the CSS design token architecture, hardened authentication flows (session gates, middleware, refresh-token interceptor), and built CTA section editor components.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "TanStack Query"],
+    year: "2025",
+    href: "#",
+    live: "https://open-profile.hng14.com/",
+  },
+  {
     image: "/invoice-app.png",
     title: "Invoice Management App",
     role: "Solo Build · HNG Stage 2",
